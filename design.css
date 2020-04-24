@@ -80,7 +80,7 @@
 
 /* HEADER */
     .header img{
-        width: 100%;
+        width: auto;
         margin: auto;
         text-align: center;
         box-shadow: 0px 5px 5px -5px grey;
