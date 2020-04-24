@@ -42,14 +42,14 @@
         border-bottom:2px solid #459991;
         padding-bottom:5px;
     }
-    h1,h2,h3,p,a{
+    h1,h2,h3,p,a,th{
         font-family: "Verdana", "Geneva", "Sans-serif";
     }
     h1,h2,h3,p{
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    p,a{
+    p,a,th{
         color:#545454;
         text-allign: left;
     }
@@ -94,6 +94,7 @@
     }
     .centered h1,.centered h2{
         color: #FFFFFF;
+        text-shadow: 2px 2px 4px black;
     }
 
 
@@ -188,6 +189,18 @@
         color: #E6EFEE;
     }
     
+    icons{
+        display: inline-block;
+    }
+    
+  /* TABLE */
+  th{
+      text-align: left;
+  }
+   th a{
+      text-decoration: underline;
+  }
+    
 
 :target {
     display: block;
@@ -198,7 +211,7 @@
 
 
 @media screen and (min-width: 1050px){
-        p{
+        p, th{
             font-size: small;
             line-height: 150%;
         }

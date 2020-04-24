@@ -6,6 +6,7 @@
         <title>Lieke de Mare - Portfolio</title>
         <meta charset="utf-8">
         <link href="design.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="smooth-scroll.js"></script>
     </head>
     
@@ -27,7 +28,8 @@
         </div>
             
         <div class="main1">
-            <a data-scroll id="about"> </a> <h1> About </h1>
+            <a data-scroll id="about"> </a> 
+            <h1> About </h1>
                 <p> 
 I am Lieke de Mare, a first year graduate students Industrial design student at the Technical University of Eindhoven. Outside my studies I am active at the scouting, other hobbies include photography and tinkering.
                 </p>
@@ -59,7 +61,8 @@ I also see myself as a very structured and goal focused designer. I make sure th
         
         <div class="gallery">
             <div class="main2">
-                <a id="portfolio"> </a> <h1> Portfolio </h1> </br>
+                <a data-scroll id="portfolio"> </a> 
+                <h1> Portfolio </h1> </br>
                 <div class="row">
                     <div class="columnpct3"> <a href="projects/walker/walker.html"> 
                             <img src="projects/walker/index.jpg"/>  
@@ -100,12 +103,26 @@ An arthritis glove with integrated LEDs to guide users through hand exercises
         </div>
         
         <div class="main1">
-            <a id="contact"> </a> <h1> Contact </h1>
-                <p>hfh ow vohr o h vwoeuh ovouh ouhrwe vosu e o uh rsouhe fos fbso urbfos oshfoejd eoshfr fowuffbhf wofuerfefhe fowffbeisrjfbr fowufbgeoslsjgbrjeslsjbg dlsjrbgerlsjsb</p>
-                <p>hfh ow vorsouhe fos fbso urbfos oshfoejd eoshfr fowuffbhf wofuerfefhe fowffbeisrjfbr fowufbgeoslsjgbrjeslsjbg dlsjrbgerls hr o h vwoeuh ovouh ouhrwe vosu e o uh rsouhe fos frsouhe fos fbso urbfos oshfoejd eoshfr fowuffbhf wofuerfefhe fowffbeisrjfbr fowufbgeoslsjgbrjeslsjbg dlsjrbgerls bso urbfos oshfoejd eoshfr fowuffbhf wofuerfefhe fowffbeisrjfbr fowufbgeoslsjgbrjeslsjbg dlsjrbgerlsjsb</p>
-            <h3> fjejd fjejf difod cied cod codbs cehsc dowhx foehwx dowh owshxhf </h3>   
-                <p>hfh ow vohr o h vwoeuh ovouh ouhrwe vosrsouhe fos fbso urbfos oshfoejd eoshfr fowuffbhf wofuerfefhe fowffbeisrjfbr fowufbgeoslsjgbrjeslsjbg dlsjrbgerls u e o uh rsouhe fos fbso urbfos oshfoejd eoshfr fowuffbhf wofuerfefhe fowffbeisrjfbr fowufbgeoslsjgbrjeslsjbg dlsjrbgerlsjsb</p>
-                <p>hfh ow vohr o h vrsouhe fos fbso urbfos oshfoejd eoshfr fowuffbhf wofuerfefhe fowffbeisrjfbr fowufbgeoslsjgbrjeslsjbg dlsjrbgerls woeuh ovouh ouhrwe vosu e o uh rsouhe fos fbso urbfos oshfoejd eoshfr fowuffbhf wofuerfefhe fowffbeisrjfbr fowufbgeoslsjgbrjeslsjbg dlsjrbgerlsjsb</p>        
+            <a data-scroll id="contact"> </a> 
+            <h1> Contact </h1>
+                <table style="width:50%">
+                    <tr>
+                        <th> <i class="fa fa-envelope" style="font-size:30px"></i> </th>
+                        <th> l.a.d.mare@student.tue.nl </th>
+                    </tr>
+                    <tr>
+                        <th> <i class="fa fa-file" style="font-size:30px"></i> </th>
+                        <th> <a href="cv.pdf" target="_blank">CV</a> </th>
+                    </tr>
+                    <tr>
+                        <th> <i class="fa fa-linkedin-square icons" style="font-size:30px"></i> </th>
+                        <th> <a href="https://www.linkedin.com/in/lieke-de-mare-09b1b4157/" target="_blank">LinkedIn</a> </th>
+                    </tr>
+                    <tr>
+                        <th> <i class="fa fa-camera" style="font-size:30px"></i>  </th>
+                        <th> <a href="https://gurushots.com/liekedemare/photos" target="_blank">Photography work</a> </th>
+                    </tr>
+                </table>
         </div>
         
         </br> </br> <div class="gallery"> </br> </div>
@@ -114,7 +131,7 @@ An arthritis glove with integrated LEDs to guide users through hand exercises
         </div>
         
         <script>
-            var scroll = new SmoothScroll('a[href*="#"]', {speed: 700});;
+            var scroll = new SmoothScroll('a[href*="#"]', {speed: 1000});;
         </script>
     </body>
     
