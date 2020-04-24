@@ -84,6 +84,7 @@
         margin: auto;
         text-align: center;
         box-shadow: 0px 5px 5px -5px grey;
+        height: 100vh;
     } 
     .centered{
         text-align: center;
