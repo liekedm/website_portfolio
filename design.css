@@ -300,14 +300,14 @@
 
 @media screen and (max-width: 550px){
         p, th{
-            font-size: small;
+            font-size:20px
             line-height: 150%;
         }
         h1, h2, h3{
-            font-size: medium;
+            font-size:30px
         }
         .centered h1,.centered h2{
-            font-size: medium;
+            font-size:30px
         }
         .centered h1{
             border-bottom:1px solid #459991;
@@ -323,7 +323,7 @@
             margin-top: 20px;
         }
         .taskbar a {
-            font-size: small;
+            font-size:30px
             padding: 5px 5px;
         }
         .footer{
