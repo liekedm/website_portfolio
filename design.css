@@ -252,9 +252,6 @@
         .logo {
             visibility: visible;
         }
-        .phone {
-            display: none;
-        }
 }
 
 
@@ -299,9 +296,6 @@
         .logo {
             visibility: visible;
         }
-        .phone {
-            display: none;
-        }
 }
 
 
@@ -345,8 +339,5 @@
         }
         .logo {
             visibility: visible;
-        }
-        .laptop {
-            display: none;
         }
 }
