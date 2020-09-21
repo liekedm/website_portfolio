@@ -151,9 +151,6 @@
         padding-right: 5%;
         padding-bottom: 1%;
     }
-    .txtbox h2{
-        font-size: small;
-    }
     .columnpct3:hover{
         box-shadow: 0px 0px 10px 0px grey;
     }
@@ -219,6 +216,9 @@
         h1, h2, h3{
             font-size: large;
         }
+        .txtbox h2{
+            font-size: small;
+        }
         .centered h1,.centered h2{
             font-size: xx-large;
         }
@@ -262,6 +262,9 @@
         }
         h1, h2, h3{
             font-size: medium;
+        }
+        .txtbox h2{
+            font-size: small;
         }
         .centered h1,.centered h2{
             font-size: large;
@@ -342,4 +345,6 @@
         .logo {
             visibility: visible;
         }
+        
+        
 }
