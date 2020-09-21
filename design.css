@@ -398,21 +398,21 @@
             display: inline;
         }
         .columntxt{
-            flex: 47%;
-            width: 47%;
+            flex: 100%;
+            width: 100%;
         }
         .columntxtgap{
-            width: 6%;
+            width: 0%;
         }
         .columnpct3{
-            flex: 31%;
-            width: 31%;
+            flex: 100%;
+            width: 100%;
             text-align: center;
             box-shadow: 0px 0px 5px 0px grey;
         }
         .columnpct2{
-            flex: 50%;
-            width: 50%;
+            flex: 100%;
+            width: 100%;
             text-align: center;
         }
         .columnpct3 img, .columnpct2 img{
@@ -420,8 +420,8 @@
             display: block;
         }
         .columnpctgap{
-            flex: 3.5%;
-            width: 3.5%;
+            flex: 0%;
+            width: 0%;
             text-align: center;
         }
         .txtbox{
