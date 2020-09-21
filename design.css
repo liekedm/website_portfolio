@@ -273,13 +273,11 @@
             border-bottom:2px solid #459991;
         }
         .main1{
-            /*width: 800px;*/
             width: 85%;
             margin-bottom: 40px;
             margin-top: 40px;
         }
         .main2{
-            /*width: 900px;*/
             width: 90%;
             margin-bottom: 40px;
             margin-top: 40px;
@@ -351,6 +349,23 @@
 
 @media screen and (max-width: 700px){
         p, th{
+            font-size: small;
+            line-height: 150%;
+        }
+        h1, h2, h3{
+            font-size: medium;
+        }
+        .txtbox h2{
+            font-size: small;
+        }
+        .centered h1,.centered h2{
+            font-size: large;
+        }
+        .centered h1{
+            border-bottom:2px solid #459991;
+        }
+        /*
+        p, th{
             font-size:30px;
             line-height: 150%;
         }
@@ -363,6 +378,7 @@
         .centered h1{
             border-bottom:1px solid #459991;
         }
+        */
         .main1{
             width: 520px;
             margin-bottom: 20px;
