@@ -80,6 +80,22 @@
     
 
 /* HEADER */
+    .header{
+        position: relative;
+        width: 100%;    
+        height: calc( 100vh - 70px );
+        overflow: hidden;
+        text-align: center;
+    }
+    .header img{
+        position: absolute;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        box-shadow: 0px 5px 5px -5px grey;
+    } 
+    /*
     .header img{
         margin: auto;
         text-align: center;
@@ -87,6 +103,7 @@
         height: calc( 100vh - 70px );
         width: 100%;
     } 
+    */
     .centered{
         text-align: center;
         position: absolute;
