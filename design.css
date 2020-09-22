@@ -89,9 +89,8 @@
     }
     .header img{
         position: absolute;
-        max-width: 100%;
-        width: 100%;
-        height: auto;
+        height: calc( 100vh - 70px );
+        width: auto;
         margin: auto;
         box-shadow: 0px 5px 5px -5px grey;
     } 
