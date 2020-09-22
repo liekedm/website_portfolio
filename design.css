@@ -206,6 +206,10 @@
         }
         .logo {
             visibility: visible;
+            margin-left: 10px;
+        }
+        .spc{
+            margin-right: 10px;
         }
         
         
