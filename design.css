@@ -81,14 +81,12 @@
 
 /* HEADER */
     .header{
-        position: relative;
         width: 100%;    
         height: calc( 100vh - 70px );
         overflow: hidden;
         text-align: center;
     }
     .header img{
-        position: absolute;
         height: calc( 100vh - 70px );
         width: auto;
         margin: auto;
