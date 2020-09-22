@@ -306,6 +306,7 @@
         .row{
             display: flex;
             flex-wrap: wrap;
+            margin-bottom: 30px;
         }
         .columntxt{
             flex: 47%;
@@ -399,6 +400,7 @@
         .row{
             display: flex;
             flex-wrap: wrap;
+            margin-bottom: 30px;
         }
         .columntxt{
             flex: 47%;
