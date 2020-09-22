@@ -16,7 +16,6 @@
         top: 0;
         width: 100%;
         overflow: hidden;
-        height: 75px;
         box-shadow: 0px 0px 10px 0px grey;
     }
     .taskbar a:hover {
@@ -209,6 +208,9 @@
         .spc{
             margin-right: 10px;
         }
+        .taskbar{
+            height: 50px;
+        }
         
         
         /* Columns */
@@ -303,6 +305,9 @@
         .spc{
             margin-right: 50px;
         }
+        .taskbar{
+            height: 75px;
+        }
         
         /* Columns */
         .row{
@@ -396,6 +401,9 @@
         }
         .spc{
             margin-right: 50px;
+        }
+        .taskbar{
+            height: 75px;
         }
         
         /* Columns */
