@@ -35,16 +35,20 @@
     
 /* TEXT */
     h1{
-        width:100%;
-        border-bottom:2px solid #459991;
-        padding-bottom:5px;
+        width: 100%;
+        border-bottom: 2px solid #459991;
+        padding-bottom: 5px;
     }
     h1,h2,h3,p,a,th{
         font-family: "Verdana", "Geneva", "Sans-serif";
     }
-    h1,h2,h3,p{
+    h2,h3,p{
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    h1 {
+        margin-top: 40px;
+        margin-bottom: 20px; 
     }
     p,a,th{
         color:#545454;
