@@ -11,9 +11,6 @@
         display: inline-block;
         float: right;
     }
-    .spc{
-        margin-right: 50px;
-    }
     .taskbar{
         background-color: #474747;
         top: 0;
@@ -205,7 +202,6 @@
             margin-right: 5px;
         }
         .logo {
-            visibility: visible;
             margin-left: 10px;
         }
         .spc{
@@ -302,8 +298,8 @@
         .contact {
             margin-right: 60px;
         }
-        .logo {
-            visibility: visible;
+        .spc{
+            margin-right: 50px;
         }
         
         /* Columns */
@@ -396,8 +392,8 @@
         .contact {
             margin-right: 30px;
         }
-        .logo {
-            visibility: visible;
+        .spc{
+            margin-right: 50px;
         }
         
         /* Columns */
