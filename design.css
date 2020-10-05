@@ -232,6 +232,7 @@
         /* Columns */
         .row{
             display: inline;
+            margin-bottom: 0px;
         }
         .columntxt{
             flex: 100%;
@@ -317,7 +318,7 @@
         .row{
             display: flex;
             flex-wrap: wrap;
-            margin-bottom: 30px;
+            margin-bottom: 0px;
         }
         .columntxt{
             flex: 47%;
