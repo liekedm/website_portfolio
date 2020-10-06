@@ -117,7 +117,6 @@
         padding-left: 5%;
         padding-right: 5%;
         padding-bottom: 1%;
-        margin-bottom: 20px;
     }
     .columnpct3:hover{
         box-shadow: 0px 0px 10px 0px grey;
@@ -233,7 +232,7 @@
         /* Columns */
         .row{
             display: inline;
-            margin-bottom: 0px;
+            margin-bottom: 30px;
         }
         .columntxt{
             flex: 100%;
@@ -319,7 +318,7 @@
         .row{
             display: flex;
             flex-wrap: wrap;
-            margin-bottom: 0px;
+            margin-bottom: 30px;
         }
         .columntxt{
             flex: 47%;
