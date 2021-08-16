@@ -6,40 +6,29 @@
     }
 
     
-
-    
 /* TEXT */
-    h1{
-        width: 100%;
-        border-bottom: 2px solid #459991;
-        padding-bottom: 5px;
-    }
     h1,h2,h3,p,a,th{
         font-family: "Verdana", "Geneva", "Sans-serif";
     }
-    h2,h3,p{
-        margin-top: 20px;
+    h1,h2,h3,p{
+        margin-top: 15px;
         margin-bottom: 20px;
-    }
-    h1 {
-        margin-top: 40px;
-        margin-bottom: 20px; 
     }
     p,a,th{
         color:#545454;
         text-allign: left;
     }
-    h1,h2{
-        color:#404040;
-        text-align: center;
+    h1{
+        width: 100%;
+        color:#FFFFFF;
+        text-align: left;
     }
-    h3{
-        color: #459991;
+    h2,h3{
+        color: #545454;
         text-align: center;
         width:90%;
         margin-left: auto;
         margin-right: auto;
-        font-style: italic;
     }
     p, .main a{
         text-align: justify;
@@ -48,6 +37,8 @@
         position: relative;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 80px;
+        margin-bottom: 150px;
     }
     a {
        text-decoration: none;
@@ -59,18 +50,28 @@
         background-color: #15B4B0;
         position: fixed;
         top: 0;
-        height: 50px;
+        height: 45px;
         width: 100%;
         box-shadow: 0px 0px 10px 0px grey;
+        z-index: 1;
+    } 
+    .header h1{
+        text-align: left;
+        margin-left: 30px;
+    } 
+    .header i{
+        position: absolute;
+        right: 30px;
+        transform: translate(0%, -250%);
     } 
 
     
 /* BUTTONS */
     .button{
         background-color: #15B4B0;
-        padding-left: 40px;
-        padding-right: 40px;
-        border-radius: 40px;
+        width: 100%;
+        height: 40px;
+        border-radius: 15px;
         display: inline-block;
     }
     .button:hover{
@@ -78,9 +79,8 @@
     }
     .button p{
         color: #FFFFFF;
-    }
-    .center{
         text-align: center;
+        transform: translate(0%, -20%);
     }
 
     
@@ -90,16 +90,24 @@
     }
     .taskbar{
         background-color: #E3F1F1;
-        bottom: 50px;
-        height: 50px;
+        bottom: 10px;
+        height: 30px;
         width: 100%;
         box-shadow: 0px 0px 10px 0px grey;
         position: fixed;
     }
+    .taskbar ul{
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -10%);
+    } 
     .taskbar a {
         display: block;
         color: #545454;
         text-align: center;
+        padding-left: 12px;
+        padding-right: 12px;
+        white-space: pre;
     }  
     
     
@@ -107,11 +115,10 @@
     .footer{
         background-color: #15B4B0;
         width: 100%;
-        height: 50px;
+        height: 40px;
         bottom: 0;
         position: fixed;
     }
-
 
 
 
@@ -121,30 +128,16 @@
             line-height: 150%;
         }
         h1, h2, h3{
-            font-size: large;
-        }
-        .txtbox h2{
-            font-size: small;
-        }
-        .centered h1,.centered h2{
-            font-size: xx-large;
-        }
-        .centered h1{
-            border-bottom:3px solid #459991;
+            font-size: medium;
         }
         .main1{
             width: 85%;
-            margin-bottom: 50px;
-            margin-top: 50px;
         }
         .main2{
             width: 70%;
-            margin-bottom: 50px;
-            margin-top: 50px;
         }
         .taskbar a {
             font-size: medium;
-            padding: 20px 20px;
         }
         .taskbar{
             height: 75px;
@@ -160,28 +153,14 @@
         h1, h2, h3{
             font-size: large;
         }
-        .txtbox h2{
-            font-size: small;
-        }
-        .centered h1,.centered h2{
-            font-size: xx-large;
-        }
-        .centered h1{
-            border-bottom:3px solid #459991;
-        }
         .main1{
             width: 80%;
-            margin-bottom: 50px;
-            margin-top: 50px;
         }
         .main2{
             width: 70%;
-            margin-bottom: 50px;
-            margin-top: 50px;
         }
         .taskbar a {
             font-size: medium;
-            padding: 20px 20px;
         }
         .taskbar{
             height: 75px;
